@@ -15,8 +15,6 @@
 span {
  display: flex;
  align-items: center;
- 
- 
 }
 
 .header_text {
@@ -35,13 +33,19 @@ span {
   column-gap: 32px;
 }
 
-
 .active {
     font-family: ABeeZee;
     font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 color:  #FFFFFF;
+transition-property: all;
+transition-duration: 1s; 
+cursor: pointer;
+}
+
+.active:hover {
+    color: rgb(0, 0, 0);
 }
 
 /* section */
@@ -59,6 +63,14 @@ line-height: 75px;
 text-align: center;
 color: #FFFFFF;
 padding-top: 185px;
+transition-property: all;
+transition-duration: 1s; 
+cursor: pointer;
+}
+
+.section_h2:hover{
+color: #B53B1B;
+ 
 }
 
 .section_text {
@@ -75,9 +87,7 @@ margin-inline: 82px;
 
 .section_main_2 {
     background: #FA793C;
-  height: 533px;
   background-position: center;
-
 }
 
 .section_main_h3 {
@@ -89,27 +99,28 @@ text-align: center;
 color: #FFFFFF;
 padding-top: 72px;
 padding-bottom: 32px;
-
 }
 
 .card_section{
     display: flex;
     column-gap: 36px;
     justify-content: center;
-    
-  
 }
 
 .card_section_article{
     width: 412px;
     background: #000000;
-    
+    transition-property: all;
+    transition-duration: 1s; 
+    cursor: pointer;
+}
+.card_section_article:hover {
+    width: 500px;
 }
 
 .discovery_photo {
     width: 100%;
-    object-fit: cover;
-   
+    object-fit: cover;  
 }
 
 .text_article {
@@ -131,12 +142,14 @@ font-size: 16px;
 font-weight: 300;
 line-height: 24px;
 color:  #D9D9D9;
-
 }
 
+/* section_3 and article*/
+
 .section_main_3 {
-    height: 1320px;
     background: #000000;
+    width: min(100%, 1440px);
+     
 }
 
 .section_main_3_h5 {
@@ -147,18 +160,17 @@ line-height: 45px;
 text-align: center;
 color: #FA793C;
 padding-top: 72px;
-padding-bottom: 32px;
-  
+padding-bottom: 32px; 
 }
+
 
 .card_section_2 {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 36px;
-    row-gap: 56px;
+    column-gap: 20px;
+    row-gap: 36px;
     justify-content: center;
     padding-bottom: 72px;
-    
     
 }
 
@@ -166,19 +178,29 @@ padding-bottom: 32px;
     border: 2px solid #FA793C;
     border-radius: 10px;
     padding: 16px;
-    width: 400px;
-    
+    transition-property: all;
+    transition-duration: 1s;
+    cursor: pointer; 
+    width: min(100%, 412px);
+}
+
+/* article hover */
+
+.card_section_2_aricle:hover {
+    box-shadow: 0px 5px 10px blue,  0px 5px 20px rgb(102, 235, 26), 0px 5px 30px rgb(216, 134, 11);
+   
 }
 
 .frame_class {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 
 .card_photo {
     width: 100%;
-    object-fit:cover ;
+    object-fit:cover;
+    flex: 1 1 32%;
 }
 
 .card_section_2_p{
@@ -187,14 +209,11 @@ font-size: 16px;
 font-weight: 400;
 line-height: 19.36px;
 color: #FA793C;
-padding-bottom: 8px;
-
-
+padding-top: 8px;
 }
 
 .money_h4 {
-   
-    font-family: Inter;
+     font-family: Inter;
 font-size: 24px;
 font-weight: 400;
 line-height: 32px;
@@ -208,7 +227,7 @@ display: inline;
     border: none;
 }
 
-
+/* footer */
 
 footer {
     background: #FA793C;
@@ -217,13 +236,6 @@ footer {
     padding-top: 32px;
     padding-bottom: 32px;
 
-}
-
-.footer_logo{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    
 }
 
 .footer_text{
