@@ -1,0 +1,73 @@
+/* 480-320 */
+@media (max-width:376px) {
+    /* header */
+    .header_class {
+        padding-inline: 38px;
+       
+        
+    }
+    span {
+        display: flex;
+        align-items: center;
+        
+    }
+
+
+    .active {
+        display: none;
+    }
+    .burger_photo {
+        display: flex;
+        
+    }
+
+    /* section */
+    .section_h2{
+    font-size: 32px;
+    padding-top: 123px;
+    }
+    .section_text {
+        padding-inline: 14px;
+        font-size: 14px;
+    }
+
+    /* section 2 */
+    .section_main_2 {
+        padding-inline: 14px;
+        
+        
+    }
+
+
+
+    .card_section_article {
+        flex: 1 1 50%;
+    }
+
+    /* section_main_3 */
+
+    .card_section_2 { 
+        width: 100;
+        object-fit:cover;
+    }
+    .section_main_3 {
+        padding-inline: 14px;
+        
+       
+    }
+    .responsive_none{
+        display: none;
+    }
+    .responsive_none_710{
+        display: none;
+    }
+
+    .card_section_2_aricle {
+        width: min(100%, 634px);
+        flex: 1 1 50%;
+    }
+    .card_photo {
+        object-fit:cover ;
+    }
+
+}

@@ -15,6 +15,7 @@
     .section_main_2 {
         padding-inline: 57px;
         padding-bottom: 48px;
+        /* height: 485px; */
     }
 
     /* section_main_3 */
@@ -55,6 +56,9 @@
     /* section 2 */
     .section_main_2 {
         padding-inline: 46px;
+        padding-bottom: 40px;
+        height: 469px;
+       
         
     }
     

@@ -43,6 +43,9 @@ transition-property: all;
 transition-duration: 1s; 
 cursor: pointer;
 }
+.burger_photo{
+    display: none;
+}
 
 .active:hover {
     color: rgb(0, 0, 0);
@@ -86,7 +89,7 @@ margin-inline: 82px;
 /* section_2 */
 
 .section_main_2 {
-    background: #FA793C;
+  background: #FA793C;
   height: 533px;
   background-position: center;
 }
