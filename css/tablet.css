@@ -7,13 +7,8 @@
        
         
     }
-    span {
-        display: flex;
-        align-items: center;
-        
-    }
 
-    .active {
+    .header_nav {
         display: none;
     }
     .burger_photo {

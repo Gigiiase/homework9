@@ -9,6 +9,7 @@
     /* section */
     .section_text {
         padding-inline: 57px;
+
     }
 
     /* section 2 */
@@ -17,13 +18,22 @@
         padding-bottom: 48px;
         /* height: 485px; */
     }
+    .card_section {
+        overflow-x: scroll;
+    }
+
+    .card_section_article {
+        flex: 1 0 380px;
+    }
 
     /* section_main_3 */
 
     .card_section_2 { 
         width: 100;
         object-fit:cover;
+        overflow-x: scroll;
     }
+
     .section_main_3 {
         padding-inline: 57px;
        
@@ -33,7 +43,7 @@
     }
     .card_section_2_aricle {
         width: min(100%, 583px);
-        flex: 1 1 32%;
+       
     }
     .card_photo {
         object-fit:cover ;
